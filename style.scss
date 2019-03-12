@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+nav {
+  height: 44px;
+  
+  background-color: #000000;
+
+  .nav-wrapper {
+    max-width: 800px;
+    margin: auto;
+    ul {
+      margin-left: 150px;
+      list-style: none;
+      padding: 0;
+
+      display: inline;
+      li {
+        color: #ffffff;
+        line-height: 44px;
+        font-family: "B612";
+        padding: 0 10px 0 10px;
+        display: inline-block;
+      }
+    }
+    .download-btn {
+      background-color: #6fd1bd;
+      line-height: 44px;
+      border: none;
+      height: 44px;
+      padding: 0 20px;
+      margin-right: 150px;
+      color: #ffffff;
+      @media screen and (max-width: 500px) {
+        /* display: none; */
+        display: none;
+      }
+      &:hover {
+        background-color: salmon;
+      }
+    }
+  }
+}
+.container{
+  display: flex;
+  align-items: center;
+  padding-left:50px;
+  margin-left:200px; 
+  height: 250px;
+  max-width: 800px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+.myName{
+  font-size: 40px;
+  font-family: 'B612';
+  h1:hover{
+    text-shadow: -5px 2px salmon;
+    transition: all 0.2s linear;
+    
+  }
+}
+h1{
+  text-shadow: 5px 5px #6fd1bd;
+}
+
+.contacts ul{
+  display: flex;
+  flex-direction: column ;
+  margin: auto;
+  list-style: none;
+  margin-top: 200px;
+  li{
+    font-size: 15px;
+    font-family: "B612";
+
+    margin-left: 280px;
+    text-align: right;
+    u:hover{
+      text-decoration-color: #d16fc9;
+      cursor: pointer;
+    }
+    a{
+      text-decoration: none;
+      color:#6fd1bd;
+      u:hover{
+       color: red; 
+      }
+    }
+  }
+}
+
+.front-end{
+  
+  font-size: 20px;
+  
+  
+}
+.border{
+  background-color: black;
+  height: 10px;
+  margin-top: -50px;
+}
+.section-profile{
+  font-family: "B612";
+  display: block;
+  margin-left: 250px;
+  margin-right: 250px;
+  height: 150px;
+}
+.profile-content{
+  text-align: right;
+}
+.profile{
+  font-family: "B612";
+  margin-top:50px; 
+  margin-left: 250px;
+  margin-right: 250px;
+  
+}
+.profile-data{
+  padding-top: 25px;
+  padding-left: 150px;
+  
+}
+.profile-line{
+  margin-top:80px;
+  width: 860px;
+}
+.tag{
+  display: inline;
+  background-color: #6fd1bd;
+  transition: 0.5s;
+  &:hover{
+    padding: 5px 11px;
+    transform: scale(1.05, 5.4);
+    
+  }
+}
+.skillls{
+  line-height: 30px;
+  font-family: "B612";
+  margin-left: 250px;
+  margin-right: 250px;
+  
+}
+.skillls-data{
+  padding-top: 50px;
+  padding-left: 150px;
+}
+.experience{
+  line-height: 30px;
+  font-family: "B612";
+  margin-left: 250px;
+  margin-right: 250px;
+  
+}
+.experience-data{
+  padding-top: 50px;
+  padding-left: 150px;
+}
+.education{
+  line-height: 30px;
+  font-family: "B612";
+  margin-left: 250px;
+  margin-right: 250px;
+  
+}
+.education-data{
+  padding-top: 50px;
+  padding-left: 150px;
+}
+.intrest{
+  line-height: 30px;
+  font-family: "B612";
+  margin-left: 250px;
+  margin-right: 250px;
+  
+}
+.intrest-data{
+  
+  padding-left: 150px;
+}
+.footer{
+  
+  margin-left:780px;
+  line-height: 40px;
+  font-family: "B612";
+}
+
+@media screen and (max-width:500px){
+  body{
+    padding-right:-1050px;
+  }
+  .container{
+    margin-left:-40px;
+  }
+  .contacts{
+    
+    margin-top: 250px;
+    ul {
+      li{
+        text-align: left;
+        margin-left:-300px;  
+      }
+    }
+  }
+  .profile{
+    padding-left: -100px;
+    margin-top:150px;  
+    margin-left:5px;
+    
+  }
+  
+  .profile-data{
+    padding-left:100px;
+  }
+  .skillls{
+    margin-top:150px;  
+    margin-left:5px;
+  }
+  .skillls-data{
+    
+    padding-left:100px;
+  }
+  .experience{
+    margin-top:150px;  
+    margin-left:5px;
+  }
+  .experience-data{
+    padding-left:100px;
+  }
+  .education{
+    margin-top:150px;  
+    margin-left:5px;
+  }
+  .education-data{
+    padding-left:100px;
+  }
+  .intrest{
+    margin-top:150px;  
+    margin-left:5px;
+  }
+  .intrest-data{
+    padding-left:100px;
+  }
+  .footer{
+    margin-left:-100px;
+  }
+  .nav-wrapper{
+    
+    ul{
+      
+      width: 400px;
+      li{
+        padding-right: 0%;  
+        margin-left:-140px;
+        margin-right: 190px;
+      }
+      
+    }
+    
+  }
+  .profile-line{
+    width: 420px;
+  }
+}
